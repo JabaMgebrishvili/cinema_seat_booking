@@ -1,0 +1,68 @@
+:root {
+    --primary-color: #222f56;
+    --secondary-color: #052995;
+}
+
+body {
+    background-color: var(--primary-color) !important;
+}
+h1{
+    text-align: center;
+    margin: 60px;
+    font-size: 40px;
+    color: white;
+}
+.container {
+    max-width: 140px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .cinema-seats {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+    margin: 30px auto;
+  }
+
+  .seat {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    background-color: green;
+    cursor: pointer;
+  }
+
+  .seat.booked {
+    background-color: red;
+  }
+
+  .seat.selected {
+    background-color: blue;
+  }
+
+  #booking-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  .notification {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .notification.error {
+    color: red;
+  }
+
+  .notification.success {
+    color: lawngreen;
+  }
+  .seat.selected {
+    background-color: blue;
+}
